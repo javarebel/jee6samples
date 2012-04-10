@@ -3,16 +3,18 @@ package org.naveen.jee6.samples.controllers;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.Serializable;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Properties;
+import java.util.ServiceLoader;
 
 import javax.ejb.EJB;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.RequestScoped;
 
 import org.naveen.jee6.sample.ejb.EmployeeManager;
+import org.naveen.jee6.samples.EchoService;
 import org.naveen.jee6.samples.GreetingManager;
-import org.naveen.jee6.samples.ModuleApp;
 import org.naveen.jee6.samples.TestUtil;
 
 @RequestScoped
@@ -83,8 +85,13 @@ public class EmployeeController implements Serializable {
 	}
 
 	public String getPropValue() {
-		ModuleApp mApp = new ModuleApp();
-		System.out.println("Module Test called------> " + mApp.test());
+		ServiceLoader<EchoService> loader = ServiceLoader.load(EchoService.class);
+		Iterator<EchoService> serviceIter = loader.iterator();
+		EchoService service = null;
+		while(serviceIter.hasNext()) {
+			service = serviceIter.next();
+			System.out.println(service.echo("Naveen"));
+		}
 		
 		InputStream in = 
 				Thread.currentThread().getContextClassLoader().getResourceAsStream("Names.properties");

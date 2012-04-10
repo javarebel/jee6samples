@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="0.016" errors="0" skipped="0" tests="1" name="org.naveen.jee6.samples.ModuleTest">
+<testsuite failures="0" time="0.002" errors="0" skipped="0" tests="1" name="org.naveen.jee6.samples.ModuleTest">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="sun.boot.library.path" value="C:\Java\jdk1.6.0_30\jre\bin"/>
-    <property name="java.vm.version" value="20.5-b03"/>
+    <property name="sun.boot.library.path" value="C:\Softwares\JDK1.6.23\jre\bin"/>
+    <property name="java.vm.version" value="19.0-b09"/>
     <property name="java.vm.vendor" value="Sun Microsystems Inc."/>
     <property name="java.vendor.url" value="http://java.sun.com/"/>
     <property name="path.separator" value=";"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
     <property name="file.encoding.pkg" value="sun.io"/>
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="Service Pack 1"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Mine\JEE6WrkSpce\jee6sampleapp1\jee6samples\sample-config"/>
-    <property name="java.runtime.version" value="1.6.0_30-b12"/>
+    <property name="user.dir" value="C:\Mine\RESTWrkSpce\GitWrkSpce\jee6samples\sample-config"/>
+    <property name="java.runtime.version" value="1.6.0_23-b05"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="basedir" value="C:\Mine\JEE6WrkSpce\jee6sampleapp1\jee6samples\sample-config"/>
-    <property name="java.endorsed.dirs" value="C:\Java\jdk1.6.0_30\jre\lib\endorsed"/>
-    <property name="os.arch" value="amd64"/>
-    <property name="surefire.real.class.path" value="C:\Mine\JEE6WrkSpce\jee6sampleapp1\jee6samples\sample-config\target\surefire\surefirebooter6020455144093486427.jar"/>
+    <property name="basedir" value="C:\Mine\RESTWrkSpce\GitWrkSpce\jee6samples\sample-config"/>
+    <property name="java.endorsed.dirs" value="C:\Softwares\JDK1.6.23\jre\lib\endorsed"/>
+    <property name="os.arch" value="x86"/>
+    <property name="surefire.real.class.path" value="C:\Mine\RESTWrkSpce\GitWrkSpce\jee6samples\sample-config\target\surefire\surefirebooter8765736278454618517.jar"/>
     <property name="java.io.tmpdir" value="C:\cygwin\tmp\"/>
     <property name="line.separator" value="
 "/>
@@ -27,38 +27,37 @@
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 7"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Java\jdk1.6.0_30\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\cygwin\usr\local\bin;C:\cygwin\bin;C:\Java\jdk1.6.0_30\bin;C:\Program Files (x86)\HP SimplePass 2011\x64;C:\Program Files (x86)\HP SimplePass 2011;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared;C:\Program Files (x86)\Common Files\Roxio Shared\12.0\DLLShared;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\Softwares\TortoiseSVN\bin;C:\Java\jdk1.6.0_30\bin;C:\Softwares\apache-maven-3.0.3\bin;C:\Softwares\apache-ant-1.8.2\bin;C:\Softwares\grails-2.0.0\bin;."/>
-    <property name="surefire.test.class.path" value="C:\Mine\JEE6WrkSpce\jee6sampleapp1\jee6samples\sample-config\target\test-classes;C:\Mine\JEE6WrkSpce\jee6sampleapp1\jee6samples\sample-config\target\classes;C:\Users\naveen\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;"/>
+    <property name="java.library.path" value="C:\Softwares\JDK1.6.23\jre\bin;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\cygwin\usr\local\bin;C:\cygwin\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32\wbem;C:\Windows\system32\windowspowershell\v1.0;C:\program files\quicktime\qtsystem;C:\program files\tortoisesvn\bin;C:\program files\ibm\gsk8\lib;C:\IBM\SQLLIB\BIN;C:\IBM\SQLLIB\FUNCTION;C:\IBM\SQLLIB\SAMPLES\REPL;C:\Softwares\Rub192\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32\wbem;C:\Windows\system32\windowspowershell\v1.0;C:\program files\quicktime\qtsystem;C:\program files\tortoisesvn\bin;C:\program files\ibm\gsk8\lib;C:\IBM\SQLLIB\BIN;C:\IBM\SQLLIB\FUNCTION;C:\IBM\SQLLIB\SAMPLES\REPL;C:\Softwares\JavaRelated\apache-maven-3.0.2\bin;C:\Softwares\JavaRelated\apache-ant-1.8.2\bin;C:\Softwares\groovy-1.8.3\bin;C:\Softwares\grails-2.0.0\bin"/>
+    <property name="surefire.test.class.path" value="C:\Mine\RESTWrkSpce\GitWrkSpce\jee6samples\sample-config\target\test-classes;C:\Mine\RESTWrkSpce\GitWrkSpce\jee6samples\sample-config\target\classes;C:\Users\nsisupal\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="50.0"/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
     <property name="os.version" value="6.1"/>
-    <property name="user.home" value="C:\Users\naveen"/>
+    <property name="user.home" value="C:\Users\nsisupal"/>
     <property name="user.timezone" value=""/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="java.specification.version" value="1.6"/>
     <property name="file.encoding" value="Cp1252"/>
-    <property name="user.name" value="naveen"/>
-    <property name="java.class.path" value="C:\Mine\JEE6WrkSpce\jee6sampleapp1\jee6samples\sample-config\target\test-classes;C:\Mine\JEE6WrkSpce\jee6sampleapp1\jee6samples\sample-config\target\classes;C:\Users\naveen\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;"/>
+    <property name="user.name" value="nsisupal"/>
+    <property name="java.class.path" value="C:\Mine\RESTWrkSpce\GitWrkSpce\jee6samples\sample-config\target\test-classes;C:\Mine\RESTWrkSpce\GitWrkSpce\jee6samples\sample-config\target\classes;C:\Users\nsisupal\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;"/>
     <property name="java.vm.specification.version" value="1.0"/>
-    <property name="sun.arch.data.model" value="64"/>
-    <property name="java.home" value="C:\Java\jdk1.6.0_30\jre"/>
-    <property name="sun.java.command" value="C:\Mine\JEE6WrkSpce\jee6sampleapp1\jee6samples\sample-config\target\surefire\surefirebooter6020455144093486427.jar C:\Mine\JEE6WrkSpce\jee6sampleapp1\jee6samples\sample-config\target\surefire\surefire4849278705175139793tmp C:\Mine\JEE6WrkSpce\jee6sampleapp1\jee6samples\sample-config\target\surefire\surefire4085737733538384245tmp"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="C:\Softwares\JDK1.6.23\jre"/>
     <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.version" value="1.6.0_30"/>
-    <property name="java.ext.dirs" value="C:\Java\jdk1.6.0_30\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
-    <property name="sun.boot.class.path" value="C:\Java\jdk1.6.0_30\jre\lib\resources.jar;C:\Java\jdk1.6.0_30\jre\lib\rt.jar;C:\Java\jdk1.6.0_30\jre\lib\sunrsasign.jar;C:\Java\jdk1.6.0_30\jre\lib\jsse.jar;C:\Java\jdk1.6.0_30\jre\lib\jce.jar;C:\Java\jdk1.6.0_30\jre\lib\charsets.jar;C:\Java\jdk1.6.0_30\jre\lib\modules\jdk.boot.jar;C:\Java\jdk1.6.0_30\jre\classes"/>
+    <property name="java.version" value="1.6.0_23"/>
+    <property name="java.ext.dirs" value="C:\Softwares\JDK1.6.23\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Softwares\JDK1.6.23\jre\lib\resources.jar;C:\Softwares\JDK1.6.23\jre\lib\rt.jar;C:\Softwares\JDK1.6.23\jre\lib\sunrsasign.jar;C:\Softwares\JDK1.6.23\jre\lib\jsse.jar;C:\Softwares\JDK1.6.23\jre\lib\jce.jar;C:\Softwares\JDK1.6.23\jre\lib\charsets.jar;C:\Softwares\JDK1.6.23\jre\lib\modules\jdk.boot.jar;C:\Softwares\JDK1.6.23\jre\classes"/>
     <property name="java.vendor" value="Sun Microsystems Inc."/>
-    <property name="localRepository" value="C:\Users\naveen\.m2\repository"/>
+    <property name="localRepository" value="C:\Users\nsisupal\.m2\repository"/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.desktop" value="windows"/>
-    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
   </properties>
   <testcase time="0" classname="org.naveen.jee6.samples.ModuleTest" name="testApp"/>
 </testsuite>
