@@ -23,6 +23,18 @@
 				Greeting from Server: #{empMgr.greetMsg}<br/>
 				Hello Message : #{empMgr.helloMsg}<br/>
 				#{empMgr.formatMsg}
+				<hr/>
+				<h:dataTable id="table1" value="#{empMgr.names}" var="name">
+					<h:column id="col1">
+						<f:facet name="header">
+							<h:outputText value="Name" />
+						</f:facet>
+						#{name}
+					</h:column>
+				</h:dataTable>
+				<br/>
+				<hr/>
+				Property Value: #{empMgr.propValue}
 			</div>
 		</h:form>
 	</ui:define>
