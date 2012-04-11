@@ -76,7 +76,7 @@
 					<failOnMissingWebXml>false</failOnMissingWebXml>
 					<archive>
 						<manifestEntries>
-							<Dependencies>org.naveen.jee6.samples export</Dependencies>
+							<Dependencies>org.naveen.jee6.samples</Dependencies>
 						</manifestEntries>
 					</archive>
 				</configuration>
