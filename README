@@ -1,0 +1,43 @@
+My Experiment with JBoss 7.1.1.Final Application Server and JEE6.
+
+This has two repository has two applications.
+
+1. echo-ear - Service Loader and JBoss Module
+2. sample-ear - jee6 experiments and JBoss Module to test loading external properties files from module.
+
+Sample Application Building Instructions
+------------------------------------------------------
+To build sample-ear application
+---------------------------------------------
+mvn clean package install
+
+To deploy sample-ear to JBoss
+---------------------------------------------
+mvn -pl sample-ear jboss-as:deploy
+
+Redeploying application
+---------------------------------------------
+mvn -pl sample-ear jboss-as:redeploy
+
+UnDeploying application
+---------------------------------------------
+mvn -pl sample-ear jboss-as:undeploy
+
+
+Echo Application Building instructions
+--------------------------------------------------
+To build echo-ear application
+---------------------------------------------
+mvn -f echo_pom.xml clean package install
+
+To deploy echo-ear to JBoss
+---------------------------------------------
+mvn -f echo_pom.xml -pl echo-ear jboss-as:deploy
+
+Redeploying application
+---------------------------------------------
+mvn -f echo_pom.xml -pl echo-ear jboss-as:redeploy
+
+UnDeploying application
+---------------------------------------------
+mvn -f echo_pom.xml -pl echo-ear jboss-as:undeploy
